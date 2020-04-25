@@ -101,7 +101,7 @@ public class LaboratorioNiveBayes {
         for(int i = 0; i < valoresList.size(); i++){
             String valor = valoresList.get(i);
             if(saltarList.contains(valor)){
-                valoresList.remove(i);
+                valoresList.remove(valor);
             }
         }
         return valoresList.toArray(new String[0]);
